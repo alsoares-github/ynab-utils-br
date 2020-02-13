@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python2 ../ofx2csv/fixofx/fixofx.py -f extrato.ofx | python2 fix_bb_checking.py 

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python2 ../ofx2csv/fixofx/fixofx.py -f $1 | python fix_bb_credit.py 
